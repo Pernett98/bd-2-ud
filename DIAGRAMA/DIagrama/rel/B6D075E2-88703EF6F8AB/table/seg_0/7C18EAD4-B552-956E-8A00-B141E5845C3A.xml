@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C18EAD4-B552-956E-8A00-B141E5845C3A" name="MARCAS_VOLQUETAS">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:00:59 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>TBL_MAR_VOL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MARCA_VOLQUETA" id="ED18320E-DC01-0C97-B02D-F82D316F203B">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:04:05 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="8F0FD342-B2D2-C3DD-24C0-2B3CA5419C0A">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:05:39 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="739B7389-BC6A-E801-A28B-A02DFB178ACF" name="MARCAS_VOLQUETAS_PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:04:14 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED18320E-DC01-0C97-B02D-F82D316F203B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2E4200C-3C03-DAA9-E417-70D530C357E6" name="MODELOS_VOLQUETAS">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:07:03 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>TBL_MOD_VOL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODELO" id="E213CF48-57BC-DC14-BF1A-7BA06BB5997D">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:48:51 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_MODELO" id="1C3EBFFF-5E55-EB49-0F85-E64D3E4EF0A5">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:49:24 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MARCA" id="3A2113EA-38D9-3693-7921-66791C6C3DB2">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:49:50 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<ownDataTypeParameters>,25,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2485C9E9-116E-CCB7-6DF3-C08221C00054" referredColumn="ED18320E-DC01-0C97-B02D-F82D316F203B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2A29212-89F3-EBBB-DAAF-D28253329A07" name="MODELOS_VOLQUETA_PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:48:51 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E213CF48-57BC-DC14-BF1A-7BA06BB5997D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D651A33B-B357-3CD7-DAFA-4533D10891E3" name="MODELOS_VOLQUETA_MARCAS_VOLQUETAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:50:18 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2113EA-38D9-3693-7921-66791C6C3DB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+@ '/home/sebastian/Documentos/Poli/BD2/UD/ESQUEMA.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/UD/DDL/EMPRESAS.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/UD/DDL/COLORES_VOLQUETAS.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/UD/DDL/MARCAS_VOLQUETAS.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/UD/DDL/MODELOS_VOLQUETAS.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/UD/DDL/VOLQUETAS.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/UD/DDL/CONDUCTORES.sql'

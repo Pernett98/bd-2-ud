@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="376ABD09-2B62-11EB-4DE8-DDD3776446B9" name="VOLQUETAS">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-13 02:37:40 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>TBL_VOL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLACA" id="AB70DF7A-5184-9F88-B4D8-219CE8DF690F">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-13 02:42:13 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COLOR" id="1307071E-FC46-E7A0-AA70-D91824A7210B">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-13 02:43:30 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0122FFE3-C36F-3F4B-6B6B-27AF9DA9978B" referredColumn="34E53571-0079-7AE7-2187-7A881A7E0480"/>
+</associations>
+</Column>
+<Column name="ID_MODELO" id="D05668A4-362A-CE13-FC72-3329121F2850">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-13 02:44:54 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06585995-E76B-B013-73CB-19A89D8EFAA8" referredColumn="E213CF48-57BC-DC14-BF1A-7BA06BB5997D"/>
+</associations>
+</Column>
+<Column name="ID_EMPRESA" id="69C6B87C-74E8-673C-33D3-7D0799EEEFF6">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-13 03:14:59 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9536691D-B576-3D81-3DCC-F1BD9420E2A5" referredColumn="A0A2672A-6B1D-5F52-7282-F00E6FF906B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54885206-A25F-91C7-0C78-3740A931A382" name="VOLQUETAS_PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-13 02:41:18 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB70DF7A-5184-9F88-B4D8-219CE8DF690F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E454101-F852-3F83-80A3-425697BFBB80" name="VOLQUETAS_EMPRESAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:52:02 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05668A4-362A-CE13-FC72-3329121F2850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFE5EB34-A057-A041-E484-F3D1D2203059" name="VOLQUETAS_COLORES_VOLQUETAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 04:01:51 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1307071E-FC46-E7A0-AA70-D91824A7210B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB302B87-33CF-67E1-CDB7-F2CAC01205B5" name="VOLQUETAS_EMPRESAS_FKv1">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-10-01 18:02:11 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69C6B87C-74E8-673C-33D3-7D0799EEEFF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

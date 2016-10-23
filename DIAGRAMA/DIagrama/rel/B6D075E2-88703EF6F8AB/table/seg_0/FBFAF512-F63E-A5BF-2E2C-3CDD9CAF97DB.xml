@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBFAF512-F63E-A5BF-2E2C-3CDD9CAF97DB" name="COLORES_VOLQUETAS">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:59:07 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<abbreviation>TBL_COL_VOL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLOR" id="34E53571-0079-7AE7-2187-7A881A7E0480">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 04:00:07 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_COLOR" id="34110CBD-F1E1-A6DF-4BD1-C26B0188B28D">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 04:00:42 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3E19EEF-5AF7-1CD0-EA5B-A927D32A72DA" name="COLORES_VOLQUETAS_PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 04:00:07 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E53571-0079-7AE7-2187-7A881A7E0480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

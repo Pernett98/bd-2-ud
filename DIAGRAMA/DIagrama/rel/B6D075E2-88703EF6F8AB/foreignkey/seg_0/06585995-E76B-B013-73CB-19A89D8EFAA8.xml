@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06585995-E76B-B013-73CB-19A89D8EFAA8" containerWithKeyObject="376ABD09-2B62-11EB-4DE8-DDD3776446B9" localFKIndex="3E454101-F852-3F83-80A3-425697BFBB80" name="VOLQUETAS_EMPRESAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-09-16 03:52:02 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2E4200C-3C03-DAA9-E417-70D530C357E6</referredTableID>
+<keyObject>A2A29212-89F3-EBBB-DAAF-D28253329A07</keyObject>
+<referredKeyID>A2A29212-89F3-EBBB-DAAF-D28253329A07</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
