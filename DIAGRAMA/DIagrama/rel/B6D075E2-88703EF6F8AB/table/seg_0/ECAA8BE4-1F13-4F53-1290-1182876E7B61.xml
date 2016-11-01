@@ -51,14 +51,16 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FECHA_ENTRADA" id="E51A1447-0BBC-D79E-CA1D-3B9FF7E82046">
+<Column name="Cantidad_entradas" id="BBE01D21-84AF-C7C1-8131-14FED48342A0">
 <createdBy>sebastian</createdBy>
-<createdTime>2016-09-17 02:41:31 UTC</createdTime>
+<createdTime>2016-11-01 15:59:33 UTC</createdTime>
 <ownerDesignName>DIagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="VOLQUETAS_PLACA" id="AB1694EE-9C5E-A84E-2DE6-DD0B04C33831">
@@ -69,12 +71,30 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CCAD0E37-3F9A-D5DA-65D3-7F1C76896347" referredColumn="AB70DF7A-5184-9F88-B4D8-219CE8DF690F"/>
 </associations>
+</Column>
+<Column name="Column_7" id="BB476ED0-0B82-FBD8-4E71-07F8E59514F8">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 15:59:33 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_8" id="B5286FF4-B59C-552A-6C7A-F9DF8900BE2D">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 15:59:33 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

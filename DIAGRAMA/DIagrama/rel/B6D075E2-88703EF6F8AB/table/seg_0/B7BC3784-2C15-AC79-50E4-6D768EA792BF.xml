@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7BC3784-2C15-AC79-50E4-6D768EA792BF" name="Entrada">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 16:00:59 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_entrada" id="408A1C18-0797-ACBA-5304-11EA9A86526F">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 16:01:49 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_venta" id="2EA96F37-8A2F-4C74-E442-2DFA9EA4652C">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 16:02:14 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85E0EF63-52B0-D466-8821-AC3BB64C00C3" referredColumn="535F7B0C-EEAE-848E-A739-C6530FD8F961"/>
+</associations>
+</Column>
+<Column name="Fecha_entrada" id="61F17594-554F-493A-1330-46D66DF51716">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 16:02:36 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18797A23-00A2-F8F2-2EE0-3DB2753D314F" name="Entrada_PK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 16:01:49 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="408A1C18-0797-ACBA-5304-11EA9A86526F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13B8D9AD-CDD9-0CF6-0403-943991C692DB" name="Entrada_VENTAS_ENTRADAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-01 16:03:02 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EA96F37-8A2F-4C74-E442-2DFA9EA4652C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
