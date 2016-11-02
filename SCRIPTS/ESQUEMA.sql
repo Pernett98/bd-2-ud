@@ -7,6 +7,8 @@ CREATE TABLESPACE ts_manantial LOGGING
 DATAFILE 'manantial.dbf' size 1M
 extent management local segment space management auto;
 
+ALTER TABLESPACE ts_manantial ADD DATAFILE '/home/sebastian/Documentos/Poli/BD2/DATAFILE/manantial.dbf' SIZE 1M;
+
 create user us_manantial profile default
 identified by 12345
 default tablespace ts_manantial

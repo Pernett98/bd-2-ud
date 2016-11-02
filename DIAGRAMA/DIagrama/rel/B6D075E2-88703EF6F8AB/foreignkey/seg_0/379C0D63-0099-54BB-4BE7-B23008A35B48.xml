@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCAD0E37-3F9A-D5DA-65D3-7F1C76896347" containerWithKeyObject="ECAA8BE4-1F13-4F53-1290-1182876E7B61" localFKIndex="D7BB5552-0FFE-AA61-2C0D-820498F946A5" name="VENTAS_VOLQUETAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="379C0D63-0099-54BB-4BE7-B23008A35B48" containerWithKeyObject="ECAA8BE4-1F13-4F53-1290-1182876E7B61" localFKIndex="8AEA3D3D-04D0-3B5C-1DAE-4DEBAFE30CE8" name="VENTAS_ENTRADAS_VOLQUETAS_FK">
 <createdBy>sebastian</createdBy>
-<createdTime>2016-09-13 03:42:09 UTC</createdTime>
+<createdTime>2016-11-02 12:42:42 UTC</createdTime>
 <ownerDesignName>DIagrama</ownerDesignName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>376ABD09-2B62-11EB-4DE8-DDD3776446B9</referredTableID>

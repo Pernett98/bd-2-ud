@@ -26,9 +26,13 @@
 <ownerDesignName>DIagrama</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="379C0D63-0099-54BB-4BE7-B23008A35B48" referredColumn="AB70DF7A-5184-9F88-B4D8-219CE8DF690F"/>
+</associations>
 </Column>
 <Column name="FECHA_VENTA" id="1CF92E09-86E7-D50B-4ABC-F54DCB29800E">
 <createdBy>sebastian</createdBy>
@@ -40,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="VALOR" id="4F1BD932-2E2B-EC40-19C1-614FD160EC9C">
+<Column name="VALOR_ENTRADA" id="4F1BD932-2E2B-EC40-19C1-614FD160EC9C">
 <createdBy>sebastian</createdBy>
 <createdTime>2016-09-16 03:52:48 UTC</createdTime>
 <ownerDesignName>DIagrama</ownerDesignName>
@@ -51,49 +55,15 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cantidad_entradas" id="BBE01D21-84AF-C7C1-8131-14FED48342A0">
+<Column name="CANTIDAD_ENTRADAS" id="BBE01D21-84AF-C7C1-8131-14FED48342A0">
 <createdBy>sebastian</createdBy>
 <createdTime>2016-11-01 15:59:33 UTC</createdTime>
 <ownerDesignName>DIagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="VOLQUETAS_PLACA" id="AB1694EE-9C5E-A84E-2DE6-DD0B04C33831">
-<createdBy>sebastian</createdBy>
-<createdTime>2016-10-01 18:21:00 UTC</createdTime>
-<ownerDesignName>DIagrama</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CCAD0E37-3F9A-D5DA-65D3-7F1C76896347" referredColumn="AB70DF7A-5184-9F88-B4D8-219CE8DF690F"/>
-</associations>
-</Column>
-<Column name="Column_7" id="BB476ED0-0B82-FBD8-4E71-07F8E59514F8">
-<createdBy>sebastian</createdBy>
-<createdTime>2016-11-01 15:59:33 UTC</createdTime>
-<ownerDesignName>DIagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Column_8" id="B5286FF4-B59C-552A-6C7A-F9DF8900BE2D">
-<createdBy>sebastian</createdBy>
-<createdTime>2016-11-01 15:59:33 UTC</createdTime>
-<ownerDesignName>DIagrama</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -109,14 +79,14 @@
 <colUsage columnID="535F7B0C-EEAE-848E-A739-C6530FD8F961"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D7BB5552-0FFE-AA61-2C0D-820498F946A5" name="VENTAS_VOLQUETAS_FK">
+<ind_PK_UK id="8AEA3D3D-04D0-3B5C-1DAE-4DEBAFE30CE8" name="VENTAS_ENTRADAS_VOLQUETAS_FK">
 <createdBy>sebastian</createdBy>
-<createdTime>2016-09-13 03:42:09 UTC</createdTime>
+<createdTime>2016-11-02 12:42:42 UTC</createdTime>
 <ownerDesignName>DIagrama</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AB1694EE-9C5E-A84E-2DE6-DD0B04C33831"/>
+<colUsage columnID="07D1A2E5-345A-EE55-D587-2170464B1E2F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
