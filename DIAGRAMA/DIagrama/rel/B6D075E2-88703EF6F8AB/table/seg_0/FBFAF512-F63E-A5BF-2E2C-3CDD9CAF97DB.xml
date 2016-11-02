@@ -44,5 +44,15 @@
 <colUsage columnID="34E53571-0079-7AE7-2187-7A881A7E0480"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="84CD4313-8917-A603-5614-BD875B6DA890" name="COLORES_VOLQUETAS__UN">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-02 16:35:30 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34110CBD-F1E1-A6DF-4BD1-C26B0188B28D"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>
