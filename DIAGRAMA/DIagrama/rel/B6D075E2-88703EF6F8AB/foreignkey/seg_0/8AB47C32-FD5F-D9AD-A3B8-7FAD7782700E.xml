@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AB47C32-FD5F-D9AD-A3B8-7FAD7782700E" containerWithKeyObject="ECAA8BE4-1F13-4F53-1290-1182876E7B61" localFKIndex="384DB4FD-8829-9202-0688-1672DA390CB3" name="VENTAS_ENTRADAS_USUARIOS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-02 22:16:02 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>801F2A61-BD82-E8D4-FD88-EF792A8B62EA</referredTableID>
+<keyObject>930F726F-C0AB-0943-500C-A4A1666A95E5</keyObject>
+<referredKeyID>930F726F-C0AB-0943-500C-A4A1666A95E5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

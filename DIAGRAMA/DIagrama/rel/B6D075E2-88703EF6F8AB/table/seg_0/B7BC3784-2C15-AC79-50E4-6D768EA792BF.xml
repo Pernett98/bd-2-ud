@@ -43,6 +43,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_USUARIO" id="463FCB33-920F-9770-49D7-6A8E20A3A572">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-02 21:30:15 UTC</createdTime>
+<comment>usuario que registra la entrada</comment>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3FCABCF-344C-AF8C-633E-126CDA302C37" referredColumn="ACE2A6B7-241C-48BE-7F04-FF3F86FC4F1A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="18797A23-00A2-F8F2-2EE0-3DB2753D314F" name="Entrada_PK">
@@ -64,6 +79,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2EA96F37-8A2F-4C74-E442-2DFA9EA4652C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D19347D-53B8-0452-3F82-94A806B379BD" name="ENTRADAS_USUARIOS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-02 21:32:24 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463FCB33-920F-9770-49D7-6A8E20A3A572"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

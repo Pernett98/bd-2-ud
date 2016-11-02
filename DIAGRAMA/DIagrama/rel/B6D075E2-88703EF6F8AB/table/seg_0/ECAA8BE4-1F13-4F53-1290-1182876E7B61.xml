@@ -66,6 +66,20 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_USUARIO" id="68F5B73A-2D71-FF94-6418-7B5E266672A2">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-02 22:15:35 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AB47C32-FD5F-D9AD-A3B8-7FAD7782700E" referredColumn="ACE2A6B7-241C-48BE-7F04-FF3F86FC4F1A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="887AC964-922C-1323-FA09-46F39703E0F2" name="VENTAS_PK">
@@ -87,6 +101,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="07D1A2E5-345A-EE55-D587-2170464B1E2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="384DB4FD-8829-9202-0688-1672DA390CB3" name="VENTAS_ENTRADAS_USUARIOS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-02 22:16:02 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F5B73A-2D71-FF94-6418-7B5E266672A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
