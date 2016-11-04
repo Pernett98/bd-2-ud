@@ -13,7 +13,7 @@
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/ESQUEMA.sql'
 
 -- DDL
-
+@ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DDL/USUARIOS.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DDL/EMPRESAS.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DDL/COLORES_VOLQUETAS.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DDL/MARCAS_VOLQUETAS.sql'
@@ -32,7 +32,7 @@
 
 
 -- DML
-
+@ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/USUARIOS_DML.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/EMPRESAS_DML.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/COLORES_VOLQUETAS_DML.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/MARCAS_VOLQUETAS_DML.sql'
