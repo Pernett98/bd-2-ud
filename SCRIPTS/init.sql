@@ -27,6 +27,8 @@
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/TRIGGERS/COLORES_VOLQUETAS_TR.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/TRIGGERS/MARCAS_VOLQUETAS_TR.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/TRIGGERS/MODELOS_VOLQUETAS_TR.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/TRIGGERS/VENTAS_ENTRADAS_TR.sql'
+
 
 
 -- DML
@@ -35,5 +37,6 @@
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/COLORES_VOLQUETAS_DML.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/MARCAS_VOLQUETAS_DML.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/MODELOS_VOLQUETAS_DML.sql'
-@ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/CONDUCTORES_DML.sql'
 @ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/VOLQUETAS_DML.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/CONDUCTORES_DML.sql'
+@ '/home/sebastian/Documentos/Poli/BD2/bd-2-ud/SCRIPTS/DML/VENTAS_ENTRADAS_DML.sql'
