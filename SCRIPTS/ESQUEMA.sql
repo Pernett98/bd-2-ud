@@ -6,7 +6,7 @@ CREATE TABLESPACE ts_manantial LOGGING
 DATAFILE 'manantial.dbf' size 1M
 extent management local segment space management auto;
 
-ALTER TABLESPACE ts_manantial ADD DATAFILE '/home/sebastian/Documentos/Poli/BD2/DATAFILE/manantial.dbf' SIZE 1M;
+ALTER TABLESPACE ts_manantial ADD DATAFILE '/home/sebastian/Documentos/BD2/DATAFILE/manantial.dbf' SIZE 1M;
 
 DROP USER us_manantial CASCADE;
 
