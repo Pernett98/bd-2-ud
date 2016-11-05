@@ -53,6 +53,17 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CONTRASENA" id="CEB9A84B-9CF0-DDFF-FCF2-A329B3344AA7">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-05 11:15:23 UTC</createdTime>
+<ownerDesignName>DIagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="930F726F-C0AB-0943-500C-A4A1666A95E5" name="USUARIOS_PK">
