@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2DCE82E-9996-2FAB-565F-AB0A65046EE9" name="VENTAS_ENTRADAS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>77F9FD45-5CFE-E102-A803-9FACBEB4D684</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTA" id="D68B32B1-5324-20F1-C7B4-19EEE4146F31">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>0DE1F847-A3A2-08C5-6344-97487E0278DB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FD042C6-BE7A-8973-FC69-93ABDE332B05</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VOLQUETA" id="86BECEAF-5CA8-34FC-518C-B6C1985A992B">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>FF6577B2-F4B4-F514-DAE4-5C36BCD9A5F0</importedID>
+<constraintName>VENTAS_ID_VOL_NN</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AA62078-81B9-49AE-F0BE-E72402DF4CE2</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="ID_VOLQUETA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BFBB191-45CC-08A3-30C3-03E255354F01" referredColumn="2AB928B1-AB7D-2DE5-E0B5-0D3F3022E4B9"/>
+</associations>
+</Column>
+<Column name="FECHA_VENTA" id="BED00936-86E0-769C-191B-063CF8276E3A">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>6C9D7794-3555-042B-5166-6A9907C94B6E</importedID>
+<constraintName>VENTAS_FECHA_VEN_NN</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>36526BE0-279F-CC70-64BC-72C797FA1804</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="FECHA_VENTA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_ENTRADA" id="06C1B4B6-60FD-B884-BE0D-536F3276DDCA">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>BCA7C255-123C-9A84-A2FF-477B910233E0</importedID>
+<constraintName>VENTAS_VALOR_v</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>22CBDF65-C426-FC57-41A6-AFAD76505C91</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="VALOR_ENTRADA &gt;= 1"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_ENTRADAS" id="2F4EE489-1991-2598-0EE3-D90CB299BD4E">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>FF036C61-3880-8D4D-098A-C0E743EDBEEC</importedID>
+<constraintName>VENTAS_CANTIDAD_ENTRADAS_V</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D18BB550-9F4E-45D1-B361-76B1431984E6</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="CANTIDAD_ENTRADAS &gt;= 1"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="8FCD8DEE-4316-4860-05F5-B977CBF50E10">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>2E5259E6-1A39-311B-D9D3-CAD2C3DE05EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>78F1427C-4325-CE15-64F3-10AA831AF0B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFE97DDB-27C3-7049-D3F7-F8AA40FAD297" referredColumn="1784A808-BB49-4F28-B886-2EDE51D50991"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0C40E54-8C85-519C-5D6F-67694BF06EBE" name="VENTAS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>FD15572D-C9A0-AF3D-AA25-4FA794AB788F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D68B32B1-5324-20F1-C7B4-19EEE4146F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="210C9984-C6AF-1667-734D-5F54E6CE3C7F" name="VENTAS_ENTRADAS_USUARIOS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FCD8DEE-4316-4860-05F5-B977CBF50E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB957A1A-84C3-51F3-59CA-54C17DD30F80" name="VENTAS_ENTRADAS_VOLQUETAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86BECEAF-5CA8-34FC-518C-B6C1985A992B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

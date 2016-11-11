@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONDUCTORES" directorySegmentName="seg_0" id="C2659402-4A4A-A023-7FFC-3C1C0ECDE1C7">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OBJ_PER_CONDUCTOR" id="0651FD8D-F826-3F27-662F-D6EAC25B02B9">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:29:53 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR.APELLIDO_2" id="498C3A32-E587-7795-8EE5-BC1740B68122">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:29:53 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR.APELLIDO_1" id="4F732BEB-E02B-80C1-37BF-E97082CF4CDD">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:29:53 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VOLQUETA" id="6F93052D-1011-B2FF-3603-B5A209C93C65">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR.NOMBRE" id="CAA1F3C3-A4A4-889F-E62C-DEB618A1579D">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:29:53 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CONDUCTOR" id="CAB3E773-BD4B-5EB2-28EE-C9930E41C724">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONDUCTORES_ID_VOLQUETA_FK" id="75FB2A64-C2BE-0317-46D5-6529B9BDD874">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONDUCTORES_PK" id="4255BCEA-D329-F58C-27C7-ADA02217335E">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

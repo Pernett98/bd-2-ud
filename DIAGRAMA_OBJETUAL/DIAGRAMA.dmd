@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DIAGRAMA" id="ADB5BC38-ADEE-3F1B-32EB-CBFEAD4B2EA5" version="3.5">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:22:56 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ADB5BC38-ADEE-3F1B-32EB-CBFEAD4B2EA5</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="492968E9-C514-C8C2-3287-7F38BAA77EE0">
+<designStoragePath>/ALLDDL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

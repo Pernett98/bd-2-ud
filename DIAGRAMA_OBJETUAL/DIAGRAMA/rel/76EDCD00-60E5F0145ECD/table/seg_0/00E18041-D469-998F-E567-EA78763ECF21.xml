@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00E18041-D469-998F-E567-EA78763ECF21" name="USUARIOS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>F3802303-3FD7-8B44-6104-9C5B8E2B3651</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="1784A808-BB49-4F28-B886-2EDE51D50991">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>D5F16A02-1D9F-101F-B209-87FE9DBC710A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>78F1427C-4325-CE15-64F3-10AA831AF0B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="2F8B4424-F5D9-06F9-EF93-52D3895387E7">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>B627B258-5452-6A86-0793-21BC07A4C460</importedID>
+<constraintName>USUARIOS_CONTRASENA_NN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66599BAA-ED70-6891-358A-B1D429F38796</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="CONTRASENA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obj_per_usuario" id="123067ED-5C56-379B-BBC6-29D87846FF54">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:28:11 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>BE7C420F-A81E-5B28-FF88-3E07737164ED</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="obj_per_usuario.NOMBRE" id="BD226DCD-33C9-A65E-5F15-3718FDA2E4D2">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:28:44 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>123067ED-5C56-379B-BBC6-29D87846FF54</parentObject>
+<structAttributeID>5560A64D-E7ED-D261-D709-F29D7513D41A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="obj_per_usuario.APELLIDO_1" id="A4477FE1-B177-20E7-59F1-90D4348C3AFD">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:28:44 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>123067ED-5C56-379B-BBC6-29D87846FF54</parentObject>
+<structAttributeID>7812D94E-E041-BFCE-CC71-A0D1B462AC4E</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="obj_per_usuario.APELLIDO_2" id="C0AD51E6-D8D5-D4B0-83BA-CECBE76F7446">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:28:44 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>123067ED-5C56-379B-BBC6-29D87846FF54</parentObject>
+<structAttributeID>0699945D-0126-23D9-591F-6131D3CC3359</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A75DD8D8-BC70-794D-20DE-4F4D2E6240B4" name="USUARIOS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>55A14CC4-B760-BAF7-B4F0-CD946069CB57</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1784A808-BB49-4F28-B886-2EDE51D50991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

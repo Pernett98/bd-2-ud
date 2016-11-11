@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="OBJ_PERSONA" directorySegmentName="seg_0" id="BE7C420F-A81E-5B28-FF88-3E07737164ED">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>480B269D-439F-3358-7FF9-6C60AAC63110</importedID>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="NOMBRE" id="5560A64D-E7ED-D261-D709-F29D7513D41A">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<generatorID>3CA54867-E8ED-D97B-0DEC-C64CCDB261E3</generatorID>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>3CA54867-E8ED-D97B-0DEC-C64CCDB261E3</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>50</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="APELLIDO_1" id="7812D94E-E041-BFCE-CC71-A0D1B462AC4E">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<generatorID>FEEB732B-6DF0-15C1-34C2-0D31D89FDC4C</generatorID>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>FEEB732B-6DF0-15C1-34C2-0D31D89FDC4C</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>50</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="APELLIDO_2" id="0699945D-0126-23D9-591F-6131D3CC3359">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<generatorID>E722F136-998A-D1D5-6867-D53265EE7009</generatorID>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>E722F136-998A-D1D5-6867-D53265EE7009</importedID>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>50</size>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+</StructuredType>

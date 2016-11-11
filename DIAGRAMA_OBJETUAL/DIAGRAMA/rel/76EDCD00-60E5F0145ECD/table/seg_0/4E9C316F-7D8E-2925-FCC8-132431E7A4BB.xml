@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E9C316F-7D8E-2925-FCC8-132431E7A4BB" name="ENTRADAS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>E611B589-6E7E-54DC-ED8F-8FA4EA701CB7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENTRADA" id="13014F5E-E457-A374-AE83-FB8B73A4BB26">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>42CDC615-A096-702F-A204-1D272ED33D30</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>82E0FA69-2F7F-63C0-E1F0-1F98004FE73F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VENTA" id="1C8DCB5B-B7AB-3A0B-F10E-AB78C5AFBD15">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>54232CF4-ACC1-107C-2AE4-41E2FA1BE2A2</importedID>
+<constraintName>ENTRADAS_ID_VEN_NN</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FD042C6-BE7A-8973-FC69-93ABDE332B05</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="ID_VENTA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19B27CC3-5945-5294-5A86-E6C216AD9893" referredColumn="D68B32B1-5324-20F1-C7B4-19EEE4146F31"/>
+</associations>
+</Column>
+<Column name="FECHA_ENTRADA" id="1773F967-8D76-04BF-C8E3-CBCB13FD4598">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>9D196A4C-2580-28ED-E574-4FFEE6858705</importedID>
+<constraintName>ENTRADAS_FECHA_ENTRADA</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>36526BE0-279F-CC70-64BC-72C797FA1804</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="FECHA_ENTRADA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="CEA87817-FFE7-D691-F783-DA57C7040D43">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>7AFE3837-EC5B-3445-800A-53F2EACA1BC2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>78F1427C-4325-CE15-64F3-10AA831AF0B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D54D4F2-6100-4A04-21F6-9FD144A57D5D" referredColumn="1784A808-BB49-4F28-B886-2EDE51D50991"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5025EAF8-7250-C57C-112B-4D5D273A8E1C" name="ENTRADAS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>840F6D9D-8182-2DEB-9697-FDABCF869821</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13014F5E-E457-A374-AE83-FB8B73A4BB26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B52CF099-B61A-2B00-E29E-9119443F63C9" name="ENTRADAS_USUARIOS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEA87817-FFE7-D691-F783-DA57C7040D43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5A46971-A14E-CBCE-2667-EACD8ADAAE8A" name="ENTRADAS_VENTAS_ENTRADAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 05:27:17 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C8DCB5B-B7AB-3A0B-F10E-AB78C5AFBD15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

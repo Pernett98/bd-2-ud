@@ -8,6 +8,7 @@
 @ '/home/sebastian/Documentos/BD2/bd-2-ud/SCRIPTS/ESQUEMA.sql'
 
 -- DDL
+@ '/home/sebastian/Documentos/BD2/bd-2-ud/SCRIPTS/DDL/OBJETOS.sql'
 @ '/home/sebastian/Documentos/BD2/bd-2-ud/SCRIPTS/DDL/USUARIOS.sql'
 @ '/home/sebastian/Documentos/BD2/bd-2-ud/SCRIPTS/DDL/EMPRESAS.sql'
 @ '/home/sebastian/Documentos/BD2/bd-2-ud/SCRIPTS/DDL/COLORES_VOLQUETAS.sql'
