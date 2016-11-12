@@ -70,9 +70,6 @@
 <domain>78F1427C-4325-CE15-64F3-10AA831AF0B6</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2D54D4F2-6100-4A04-21F6-9FD144A57D5D" referredColumn="1784A808-BB49-4F28-B886-2EDE51D50991"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -87,16 +84,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="13014F5E-E457-A374-AE83-FB8B73A4BB26"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="B52CF099-B61A-2B00-E29E-9119443F63C9" name="ENTRADAS_USUARIOS_FK">
-<createdBy>sebastian</createdBy>
-<createdTime>2016-11-11 05:27:17 UTC</createdTime>
-<ownerDesignName>DIAGRAMA</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CEA87817-FFE7-D691-F783-DA57C7040D43"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B5A46971-A14E-CBCE-2667-EACD8ADAAE8A" name="ENTRADAS_VENTAS_ENTRADAS_FK">

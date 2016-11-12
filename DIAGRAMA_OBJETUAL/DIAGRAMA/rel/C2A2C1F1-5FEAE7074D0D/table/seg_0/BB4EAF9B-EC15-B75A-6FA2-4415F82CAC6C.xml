@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB4EAF9B-EC15-B75A-6FA2-4415F82CAC6C" name="CONDUCTORES">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>434A330B-0354-74D1-EEBD-AA7B88CD06B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONDUCTOR" id="5F3BAA46-2452-D95A-8E79-174157C7F7C3">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>B7021E68-A7B7-17FF-19F3-D5AA8F37130B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>78F1427C-4325-CE15-64F3-10AA831AF0B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VOLQUETA" id="7A467531-C800-90C6-3554-AB1DF0DFBC20">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>CDC85400-48B5-C685-7191-E491813B27F7</importedID>
+<constraintName>CONDUCTORES_ID_VOLQUETA_NN</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AA62078-81B9-49AE-F0BE-E72402DF4CE2</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="ID_VOLQUETA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CDBDF8A-9C3C-CBA8-E03E-AE9D7B2022BC" referredColumn="20A8C8E9-D826-6D13-EEC4-2E00EB517763"/>
+</associations>
+</Column>
+<Column name="OBJ_PER_CONDUCTOR" id="C7617399-973D-8E86-EE02-EFE50ED3CC60">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>E320B2BA-4B1B-B967-6B91-2537EE09A84E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>BE7C420F-A81E-5B28-FF88-3E07737164ED</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONSTRAINT" id="B7A20DF5-0F58-747C-805E-A94166A56620">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>808DF821-04A8-C9FC-F2D5-2BC1BED06BDC</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONSTRAINT1" id="12368EF7-A472-50CB-A298-2C8D2DD04E3A">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>0E2785E8-C952-E27A-29D3-757B22B63D62</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONSTRAINT2" id="16E10D81-5D2E-7CA4-82A8-E55C2F221043">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>4362A898-D843-8246-12E9-A503A89AA374</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONSTRAINT3" id="B9484972-A1B1-1937-516E-E2B4F15836CB">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>C91CF074-42BD-2A17-49B3-530F6D608381</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="OBJ_PER_CONDUCTOR.NOMBRE" id="6201184F-DDF9-59AD-0B1B-273CF7B5B096">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>C7617399-973D-8E86-EE02-EFE50ED3CC60</parentObject>
+<structAttributeID>5560A64D-E7ED-D261-D709-F29D7513D41A</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="OBJ_PER_CONDUCTOR.APELLIDO_1" id="D4D412A3-EAB2-7960-0CC4-0F35A8801BE1">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>C7617399-973D-8E86-EE02-EFE50ED3CC60</parentObject>
+<structAttributeID>7812D94E-E041-BFCE-CC71-A0D1B462AC4E</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="OBJ_PER_CONDUCTOR.APELLIDO_2" id="701E255E-078B-5E7D-971E-5D67A9ECB449">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>C7617399-973D-8E86-EE02-EFE50ED3CC60</parentObject>
+<structAttributeID>0699945D-0126-23D9-591F-6131D3CC3359</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8300B8E-CE15-6097-A064-C6A09D85EA1A" name="CONDUCTORES_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>48418151-F23E-F97C-F2CC-7018DDAF4548</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F3BAA46-2452-D95A-8E79-174157C7F7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EA402A9-30C1-D4CE-2563-13FB8C583929" name="CONDUCTORES_ID_VOLQUETA_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A467531-C800-90C6-3554-AB1DF0DFBC20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

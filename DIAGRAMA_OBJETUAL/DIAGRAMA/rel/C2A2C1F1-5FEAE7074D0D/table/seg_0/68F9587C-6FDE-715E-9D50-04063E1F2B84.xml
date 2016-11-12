@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68F9587C-6FDE-715E-9D50-04063E1F2B84" name="MODELOS_VOLQUETAS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>D4E76E2F-30A3-90E3-0709-E43FCCEA974E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODELO" id="99FDBD0B-8706-A1C8-E113-570007355029">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>A1EDD819-981C-E6ED-D57E-D66710B63576</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7C3CDD7E-F1D4-4513-12C6-28184250B6DB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_MODELO" id="D243D7B1-ACF1-62DF-C877-5C427EEF7EE5">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>8376B93B-2CDA-0B25-BFF3-BB87CCD281D0</importedID>
+<constraintName>MODELOS_VOLQUETAS_DSC_MDL_NN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ABEA0DFE-CFE5-1F70-806D-65E9659A3FBC</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="DESCRIPCION_MODELO IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MARCA" id="F56A406D-D819-AB39-F837-EFF295178A63">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>5D14C7C4-50B5-7DC5-8796-EA3303991D8A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77F1EE6C-11A5-B641-1BB8-963C8CA4BC1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B90EEBF5-6FA6-4711-107C-30DB772932A1" referredColumn="37D5D2D7-EDA4-3B2F-BB30-E5F1ADA8853A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="571049B9-886A-9D1D-1137-10C0A5287D33" name="MODELOS_VOLQUETAS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>1224FE05-331F-5929-39B0-B4D8D6AA7D8E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99FDBD0B-8706-A1C8-E113-570007355029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48CEC186-A465-AF14-1A63-0D538740C7FE" name="MODELOS_VOLQUETAS_MAR_VLQ_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F56A406D-D819-AB39-F837-EFF295178A63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

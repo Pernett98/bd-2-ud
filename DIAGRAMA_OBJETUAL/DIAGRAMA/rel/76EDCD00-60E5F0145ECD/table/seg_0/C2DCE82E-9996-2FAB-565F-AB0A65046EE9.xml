@@ -103,9 +103,6 @@
 <domain>78F1427C-4325-CE15-64F3-10AA831AF0B6</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BFE97DDB-27C3-7049-D3F7-F8AA40FAD297" referredColumn="1784A808-BB49-4F28-B886-2EDE51D50991"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -120,16 +117,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D68B32B1-5324-20F1-C7B4-19EEE4146F31"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="210C9984-C6AF-1667-734D-5F54E6CE3C7F" name="VENTAS_ENTRADAS_USUARIOS_FK">
-<createdBy>sebastian</createdBy>
-<createdTime>2016-11-11 05:27:17 UTC</createdTime>
-<ownerDesignName>DIAGRAMA</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8FCD8DEE-4316-4860-05F5-B977CBF50E10"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DB957A1A-84C3-51F3-59CA-54C17DD30F80" name="VENTAS_ENTRADAS_VOLQUETAS_FK">

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONDUCTORES" directorySegmentName="seg_0" id="BB4EAF9B-EC15-B75A-6FA2-4415F82CAC6C">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONSTRAINT1" id="12368EF7-A472-50CB-A298-2C8D2DD04E3A">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONSTRAINT2" id="16E10D81-5D2E-7CA4-82A8-E55C2F221043">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CONDUCTOR" id="5F3BAA46-2452-D95A-8E79-174157C7F7C3">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR.NOMBRE" id="6201184F-DDF9-59AD-0B1B-273CF7B5B096">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR.APELLIDO_2" id="701E255E-078B-5E7D-971E-5D67A9ECB449">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VOLQUETA" id="7A467531-C800-90C6-3554-AB1DF0DFBC20">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONSTRAINT" id="B7A20DF5-0F58-747C-805E-A94166A56620">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONSTRAINT3" id="B9484972-A1B1-1937-516E-E2B4F15836CB">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR" id="C7617399-973D-8E86-EE02-EFE50ED3CC60">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PER_CONDUCTOR.APELLIDO_1" id="D4D412A3-EAB2-7960-0CC4-0F35A8801BE1">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONDUCTORES_ID_VOLQUETA_FK" id="8EA402A9-30C1-D4CE-2563-13FB8C583929">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONDUCTORES_PK" id="C8300B8E-CE15-6097-A064-C6A09D85EA1A">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

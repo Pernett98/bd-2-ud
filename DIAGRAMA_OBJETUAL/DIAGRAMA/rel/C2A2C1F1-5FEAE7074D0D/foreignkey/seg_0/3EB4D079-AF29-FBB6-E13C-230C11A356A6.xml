@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EB4D079-AF29-FBB6-E13C-230C11A356A6" containerWithKeyObject="350AED66-8811-7CAA-E388-7A986E5D1D91" localFKIndex="8F60CD61-D251-A90A-822F-52F3DB20CCEE" name="VENTAS_ENTRADAS_VOLQUETAS_FK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>E389200A-25DC-AC24-836C-5B6DE1AE1E40</importedID>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40F1BBAE-CF43-CC8A-E6BE-A8F6E0B05ADB</referredTableID>
+<keyObject>3ADAC180-BEFD-EF08-F328-8E1CBB799AC8</keyObject>
+<referredKeyID>3ADAC180-BEFD-EF08-F328-8E1CBB799AC8</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

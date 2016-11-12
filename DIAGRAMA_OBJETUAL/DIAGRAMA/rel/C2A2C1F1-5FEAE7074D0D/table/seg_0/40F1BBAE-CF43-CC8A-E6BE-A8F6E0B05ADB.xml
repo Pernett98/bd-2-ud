@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40F1BBAE-CF43-CC8A-E6BE-A8F6E0B05ADB" name="VOLQUETAS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>32557A53-39D8-FB0E-ED92-7AB7C3CEF8E5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLACA" id="20A8C8E9-D826-6D13-EEC4-2E00EB517763">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>3A36E8BE-659A-2A49-EB59-110ECC45C8A5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AA62078-81B9-49AE-F0BE-E72402DF4CE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COLOR" id="B2654D5F-F59A-E8B9-2D8E-6AB043DE994D">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>6C9F3740-BBA8-6164-2935-452DD2FF8E9C</importedID>
+<constraintName>VOLQUETAS_ID_COLOR_NN</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77F1EE6C-11A5-B641-1BB8-963C8CA4BC1D</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="ID_COLOR IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9568FF02-46FA-575E-010B-CCDB03C9CE7B" referredColumn="72F0F058-AAE5-69E4-E77E-9580676B7087"/>
+</associations>
+</Column>
+<Column name="ID_MODELO" id="34B35C7D-9100-EBF1-A1B3-0B98618EE170">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>7687E36D-4117-A360-86BD-0FD9FEAADAF0</importedID>
+<constraintName>VOLQUETAS_ID_MODELO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7C3CDD7E-F1D4-4513-12C6-28184250B6DB</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="ID_MODELO IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E745C74-0DAA-1A7D-5E66-3C7A32B8690E" referredColumn="99FDBD0B-8706-A1C8-E113-570007355029"/>
+</associations>
+</Column>
+<Column name="ID_EMPRESA" id="1C11140E-D466-85F7-ECA3-DE2710E18CBC">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>7078218E-63B4-AB55-298E-C9AA3827F275</importedID>
+<constraintName>VOLQUETAS_ID_EMPRESA</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ABEA0DFE-CFE5-1F70-806D-65E9659A3FBC</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="ID_EMPRESA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="240F8CF0-A5E2-C4D4-E916-5DD02E36535E" referredColumn="4CFC13D1-2DF9-208E-0525-D609466BD347"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ADAC180-BEFD-EF08-F328-8E1CBB799AC8" name="VOLQUETAS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>03D00204-197D-5514-8CE9-375BB94EB933</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A8C8E9-D826-6D13-EEC4-2E00EB517763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2EF54AE-DBFA-245D-6DD7-35C55F7A0BD9" name="VOLQUETAS_COLORES_VOLQUETAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2654D5F-F59A-E8B9-2D8E-6AB043DE994D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58F8C97F-F20D-DD68-CB17-AD3EDBCFCF54" name="VOLQUETAS_EMPRESAS_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C11140E-D466-85F7-ECA3-DE2710E18CBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB4BA210-C8B8-C74A-7F2F-6B27D7CA6786" name="VOLQUETAS_MODELO_FK">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34B35C7D-9100-EBF1-A1B3-0B98618EE170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

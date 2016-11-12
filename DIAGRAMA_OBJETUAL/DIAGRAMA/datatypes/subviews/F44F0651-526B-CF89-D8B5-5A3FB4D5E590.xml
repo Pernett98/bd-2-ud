@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" id="F44F0651-526B-CF89-D8B5-5A3FB4D5E590">
+<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" name="DataTypes" id="F44F0651-526B-CF89-D8B5-5A3FB4D5E590">
 <createdBy>sebastian</createdBy>
 <modifiedBy>sebastian</modifiedBy>
 <createdTime>2016-11-11 05:22:56 UTC</createdTime>
@@ -22,9 +22,32 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="20" y="20" width="199" height="81"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" otype="StructuredType" vid="9FC3CDEC-41F1-DD50-2ED7-13649CC9BBD4">
+</objectViews>
+<displays>
+<Display class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" name="Display_1" id="7F96573D-5ADC-F982-5C14-35FFDCB33D33">
+<createdBy>sebastian</createdBy>
+<modifiedBy>sebastian</modifiedBy>
+<createdTime>2016-11-11 14:28:43 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>true</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="6D9E7354-0B24-B780-2DBE-B81B3A2E0F7F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="20" y="20" width="100" height="100"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="BE7C420F-A81E-5B28-FF88-3E07737164ED" otype="StructuredType" vid="024C4B04-ED27-444C-824D-1D4DFC34EB3A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="199" height="81"/>
+</OView>
 </objectViews>
+</Display>
+</displays>
 </Diagram>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypesSubView" name="DataTypes - SubView_1" id="5731B0E1-D2ED-028E-B3CA-60720A780446">
+<createdBy>sebastian</createdBy>
+<modifiedBy>sebastian</modifiedBy>
+<createdTime>2016-11-11 11:48:52 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="BE7C420F-A81E-5B28-FF88-3E07737164ED" otype="StructuredType" vid="D98E8E42-4725-A2D2-155B-B04B4AE7245D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="9" y="6" width="199" height="81"/>
+</OView>
+</objectViews>
+</Diagram>

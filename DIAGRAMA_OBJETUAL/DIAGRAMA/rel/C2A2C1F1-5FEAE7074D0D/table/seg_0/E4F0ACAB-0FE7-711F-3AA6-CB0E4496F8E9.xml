@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4F0ACAB-0FE7-711F-3AA6-CB0E4496F8E9" name="COLORES_VOLQUETAS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>FE5924B4-700A-4ABC-F256-84749294E18C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLOR" id="72F0F058-AAE5-69E4-E77E-9580676B7087">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>23DEAC37-4FCA-80A4-330E-E9753375ABFA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77F1EE6C-11A5-B641-1BB8-963C8CA4BC1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_COLOR" id="914DA20D-1E48-6600-9C87-F517797D440F">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>D99942BB-A562-F6A9-CA6F-C0012C662F7C</importedID>
+<constraintName>COLORES_VOLQUETAS_DES_NN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66599BAA-ED70-6891-358A-B1D429F38796</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="DESCRIPCION_COLOR IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D7ACF54-3A72-79D0-3B98-598C68873317" name="COLORES_VOLQUETAS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>8AB5681C-ABDB-D49D-CA3F-9AECC49E3793</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F0F058-AAE5-69E4-E77E-9580676B7087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4BC1ACF-3A24-599A-8946-EC93E44456BF" name="COLORES_VOLQUETAS_DES_UN">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>7F6B68DF-E7A7-BAE6-0F6A-91BAC5BF7B3D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="914DA20D-1E48-6600-9C87-F517797D440F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

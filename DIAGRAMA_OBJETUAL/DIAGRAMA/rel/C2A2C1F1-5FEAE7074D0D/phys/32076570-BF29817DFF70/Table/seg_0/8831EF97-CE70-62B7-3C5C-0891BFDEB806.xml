@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIOS" directorySegmentName="seg_0" id="8831EF97-CE70-62B7-3C5C-0891BFDEB806">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OBJ_PERSONA_USUARIO" id="27E96143-F641-52A2-70BF-AF1D0CB3A467">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTRASENA" id="3155C85F-CABD-4E93-192A-817BEEFA9779">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PERSONA_USUARIO.APELLIDO_2" id="6CFA31CC-A6E3-BD61-5491-C40307074C4A">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="7FB32F71-F558-A742-DC6F-AEA31C57048B">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PERSONA_USUARIO.NOMBRE" id="C50139F6-9E6D-77E7-7BA3-81CFFC6319F6">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJ_PERSONA_USUARIO.APELLIDO_1" id="F673C9CA-EF77-C9A8-13CA-FB01B7757024">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIOS_PK" id="0C19D2D5-EBDA-9EEA-C088-66D631181FA1">
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

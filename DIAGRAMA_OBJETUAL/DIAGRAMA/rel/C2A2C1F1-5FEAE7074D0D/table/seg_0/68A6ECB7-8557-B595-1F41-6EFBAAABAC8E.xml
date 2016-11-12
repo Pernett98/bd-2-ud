@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68A6ECB7-8557-B595-1F41-6EFBAAABAC8E" name="MARCAS_VOLQUETAS">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>25B9AB92-9A41-1EEE-5482-F0277177C5C7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MARCA_VOLQUETA" id="37D5D2D7-EDA4-3B2F-BB30-E5F1ADA8853A">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>BEBCC0BF-8890-9DFD-7A43-E9C584CBBB73</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>77F1EE6C-11A5-B641-1BB8-963C8CA4BC1D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="4875133C-0AE6-AAF9-746D-050AE2D016D3">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>3A076AA5-90B9-80CE-E5A0-7FFB689111B5</importedID>
+<constraintName>MARCAS_VOLQUETAS_NOMBRE_NN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5EE6940A-FFA9-A423-97CB-CDD93E1209CA</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="NOMBRE_MARCA IS NOT NULL"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9B1D803-9701-52CC-9C75-2A809BE01CE8" name="MARCAS_VOLQUETAS_PK">
+<sourceDDLFile>ALLDDL.ddl</sourceDDLFile>
+<createdBy>sebastian</createdBy>
+<createdTime>2016-11-11 12:32:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA</ownerDesignName>
+<importedID>0647D7D5-34F2-BC22-E286-7EC7336F58CB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37D5D2D7-EDA4-3B2F-BB30-E5F1ADA8853A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
