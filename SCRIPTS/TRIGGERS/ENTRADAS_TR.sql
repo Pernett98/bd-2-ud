@@ -69,11 +69,28 @@ BEFORE EACH ROW IS
 END TR_ENTRADAS;
 /
 
--- CREATE OR REPLACE PROCEDURE VER_HISTORIAL_ENTRADAS ( PLACA_VOLQUETA IN VARCHAR2) AS
--- BEGIN
---   SELECT COUNT (*) INTO NAME FROM ENTRADAS E INNER JOIN VENTAS_ENTRADAS VE ON E.ID_VENTA = VE.ID_VENTA WHERE VE.ID_VOLQUETA = PLACA_VOLQUETA;
--- END;
--- /
+CREATE OR REPLACE PROCEDURE BORR_VEN_VIEJ_SIN_ENTR IS
+  CURSOR cr_venta IS SELECT * FROM VENTAS_ENTRADAS;
+  CURSOR cr_entradas (ID_VENTA_C NUMBER) IS SELECT * FROM ENTRADAS WHERE ID_VENTA = ID_VENTA_C;
+  TIENE_REGISTROS BOOLEAN := FALSE;
+  REGISTROS_ELIMINADOS NUMBER := 0;
+BEGIN
+  FOR ap_venta IN cr_venta LOOP
+    TIENE_REGISTROS := FALSE;
+    FOR ap_entradas IN cr_entradas(ap_venta.ID_VENTA) LOOP
+      TIENE_REGISTROS := TIENE_REGISTROS OR TRUE;
+    END LOOP;
+    IF TIENE_REGISTROS = FALSE THEN
+      IF (SYSDATE - ap_venta.FECHA_VENTA) > 365 THEN
+        dbms_output.put_line('la venta con id: ' || ap_venta.ID_VENTA || ' se eliminará por que es un registro con más de una año de existencía y no se ha utilizado');
+        DELETE FROM VENTAS_ENTRADAS WHERE ID_VENTA = ap_venta.ID_VENTA ;
+        REGISTROS_ELIMINADOS := REGISTROS_ELIMINADOS + 1;
+      END IF;
+    END IF;
+  END LOOP;
+  dbms_output.put_line('La cantidad de registros eliminados es: ' || REGISTROS_ELIMINADOS);
+END;
+/
 
 CREATE OR REPLACE FUNCTION CONTAR_ENTRADAS (ID_VENTA IN NUMBER) RETURN NUMBER IS
   CANT_ENT_VEN NUMBER := 0;
@@ -91,16 +108,16 @@ end loop;
 END;
 /
 --
-DECLARE
-  cdv number;
-BEGIN
-   dbms_output.put_line(CONTAR_ENTRADAS(2));
-   SELECT COUNT(*) INTO cdv FROM ENTRADAS E WHERE E.ID_VENTA = 1;
-   dbms_output.put_line(cdv);
-END;
-/
-
-BEGIN
-   dbms_output.put_line(CONTAR_ENTRADAS(2));
-END;
-/
+-- DECLARE
+--   cdv number;
+-- BEGIN
+--    dbms_output.put_line(CONTAR_ENTRADAS(2));
+--    SELECT COUNT(*) INTO cdv FROM ENTRADAS E WHERE E.ID_VENTA = 1;
+--    dbms_output.put_line(cdv);
+-- END;
+-- /
+--
+-- BEGIN
+--    dbms_output.put_line(CONTAR_ENTRADAS(2));
+-- END;
+-- /
